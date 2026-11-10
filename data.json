@@ -1,0 +1,84 @@
+{
+  "initialScore": 0,
+  "improvementAreas": [
+    {
+      "id": "optimize-images",
+      "name": "Optimize Images",
+      "description": "Compress and resize images to reduce page load times.",
+      "impact": 15,
+      "checked": false
+    },
+    {
+      "id": "minify-css-js",
+      "name": "Minify CSS & JavaScript",
+      "description": "Remove unnecessary characters from CSS and JS files.",
+      "impact": 10,
+      "checked": false
+    },
+    {
+      "id": "enable-caching",
+      "name": "Enable Browser Caching",
+      "description": "Allow browsers to store static assets locally for faster subsequent loads.",
+      "impact": 12,
+      "checked": false
+    },
+    {
+      "id": "reduce-http-requests",
+      "name": "Reduce HTTP Requests",
+      "description": "Combine files and use sprites to minimize the number of requests.",
+      "impact": 8,
+      "checked": false
+    },
+    {
+      "id": "lazy-load-images",
+      "name": "Lazy Load Images",
+      "description": "Load images only when they are visible in the viewport.",
+      "impact": 7,
+      "checked": false
+    },
+    {
+      "id": "use-cdn",
+      "name": "Use a Content Delivery Network (CDN)",
+      "description": "Serve static assets from servers geographically closer to users.",
+      "impact": 10,
+      "checked": false
+    },
+    {
+      "id": "optimize-fonts",
+      "name": "Optimize Font Loading",
+      "description": "Use modern font formats and preload critical fonts.",
+      "impact": 5,
+      "checked": false
+    },
+    {
+      "id": "server-side-rendering",
+      "name": "Implement Server-Side Rendering (SSR)",
+      "description": "Render initial HTML on the server for faster perceived load times.",
+      "impact": 20,
+      "checked": false
+    }
+  ],
+  "features": [
+    {
+      "id": "dark-mode",
+      "name": "Dark Mode",
+      "description": "Enable a dark theme for the application.",
+      "performanceImpact": -2,
+      "enabled": true
+    },
+    {
+      "id": "animations",
+      "name": "Smooth Animations",
+      "description": "Enable subtle animations for UI elements.",
+      "performanceImpact": -3,
+      "enabled": true
+    },
+    {
+      "id": "realtime-updates",
+      "name": "Real-time Data Updates",
+      "description": "Show live updates for performance metrics.",
+      "performanceImpact": -5,
+      "enabled": false
+    }
+  ]
+}

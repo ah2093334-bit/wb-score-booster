@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Booster - Achieve 99% Performance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="app-header">
+        <div class="container">
+            <h1>Score Booster</h1>
+            <p>Your ultimate tool to reach 99% software performance.</p>
+        </div>
+    </header>
+
+    <main class="app-main">
+        <div class="container">
+            <section class="score-display">
+                <h2>Current Performance Score</h2>
+                <div id="score-circle" class="score-circle">
+                    <span id="score-value">0</span>%
+                </div>
+                <p id="score-message">Let's start improving!</p>
+            </section>
+
+            <section class="improvement-section">
+                <h2>Performance Improvement Areas</h2>
+                <div id="improvement-list" class="improvement-list">
+                    <!-- Improvement items will be loaded here by app.js -->
+                </div>
+            </section>
+
+            <section class="feature-management">
+                <h2>Feature Management</h2>
+                <p>Enable or disable features to see their impact on performance.</p>
+                <div id="feature-toggles" class="feature-toggles">
+                    <!-- Feature toggles will be loaded here by app.js -->
+                </div>
+            </section>
+
+            <section class="action-buttons">
+                <button id="calculate-score-btn" class="btn primary">Recalculate Score</button>
+                <button id="reset-data-btn" class="btn secondary">Reset All Data</button>
+            </section>
+        </div>
+    </main>
+
+    <footer class="app-footer">
+        <div class="container">
+            <p>&copy; 2023 Score Booster. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
